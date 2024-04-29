@@ -16,7 +16,7 @@ const __dirname = dirname(__filename);
 
 const PORT = process.env.PORT || 5000;
 
-const publicPath = "../frontend/build";
+const publicPath = "public";
 
 // middleware
 app.use(express.urlencoded({ extended: true }));
